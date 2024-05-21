@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    height: 450px;
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2929d4, orangered, green);
+    border-radius: 10px;
+    transition: .4s;
+    margin-top: 50px;
+}
+
+.form:hover{
+    box-shadow: 2px 2px 50px #ff0101;
+}
+
+
+
+button{
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: skyblue;
+    color: orangered;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .4s;
+    border: none;
+    margin-left: 45px;
+}
+button:hover{
+    background-color: #09f801b7;
+    color: #5a0adb;
+}
+#checkbox{
+    margin-left: 25px;
+}
+
+
+label{
+    color: #ffffff;
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 2px solid #e455cc;
+}
+
+form input::placeholder{
+    color: #ff6ef8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+form label span{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
